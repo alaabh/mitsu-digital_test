@@ -83,7 +83,7 @@ class _ArticleScreenState extends State<ArticleScreen> {
                                   child: Text('Titre',
                                       style: TextStyle(
                                           fontFamily: 'Montserrat',
-                                          fontSize: 10,
+                                          fontSize: 15,
                                           color: Colors.black)),
                                 )),
                             SizedBox(
@@ -91,14 +91,14 @@ class _ArticleScreenState extends State<ArticleScreen> {
                                 child: const Text('Id',
                                     style: TextStyle(
                                         fontFamily: 'Montserrat',
-                                        fontSize: 10,
+                                        fontSize: 15,
                                         color: Colors.black))),
                             SizedBox(
                                 width: Get.size.width * 0.2,
                                 child: const Text('user id',
                                     style: TextStyle(
                                         fontFamily: 'Montserrat',
-                                        fontSize: 10,
+                                        fontSize: 15,
                                         color: Colors.black))),
                           ],
                         ),
