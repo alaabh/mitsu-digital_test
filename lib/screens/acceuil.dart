@@ -88,14 +88,14 @@ class _ArticleScreenState extends State<ArticleScreen> {
                                 )),
                             SizedBox(
                                 width: Get.size.width * 0.2,
-                                child: const Text('Catégories',
+                                child: const Text('Id',
                                     style: TextStyle(
                                         fontFamily: 'Montserrat',
                                         fontSize: 10,
                                         color: Colors.black))),
                             SizedBox(
                                 width: Get.size.width * 0.2,
-                                child: const Text('Status',
+                                child: const Text('user id',
                                     style: TextStyle(
                                         fontFamily: 'Montserrat',
                                         fontSize: 10,
@@ -137,7 +137,7 @@ class _ArticleScreenState extends State<ArticleScreen> {
                                                   fontWeight: FontWeight.bold)),
                                         ),
                                         SizedBox(
-                                          width: Get.size.width * 0.2,
+                                          width: Get.size.width * 0.15,
                                         ),
                                         SizedBox(
                                           width: Get.size.width * 0.1,
@@ -150,7 +150,7 @@ class _ArticleScreenState extends State<ArticleScreen> {
                                                   fontWeight: FontWeight.bold)),
                                         ),
                                         SizedBox(
-                                          width: Get.size.width * 0.07,
+                                          width: Get.size.width * 0.1,
                                         ),
                                         SizedBox(
                                           width: Get.size.width * 0.1,
